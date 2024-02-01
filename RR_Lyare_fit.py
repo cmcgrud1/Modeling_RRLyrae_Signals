@@ -272,6 +272,7 @@ print ("Saved 'TESS_Transit_Phase.png' in path: '"+SavePath+"'")
 plt.show()
 plt.close()
 
-# path = "/Users/chimamcgruder/Research/TwinPlanets/Juliet_fitting/HATS29/"
-# np.save(path+"H29_TESS", np.array(clippedLC))
-# print ("Saved final LC as 'H29_TESS.npy' in '"+path+"'")
+#To save the TESS data after the RR Lyrae signal has been corrected for
+path = "/Users/chimamcgruder/Research/TwinPlanets/Juliet_fitting/HATS29/"
+np.save(path+"H29_TESS", np.array(clippedLC))
+print ("Saved final LC as 'H29_TESS.npy' in '"+path+"'")
